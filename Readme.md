@@ -1,10 +1,14 @@
 Algorithm for deploying services in a group due to the given cost for best average response time.
 
-# Data structure for input and output
+## How to run
 
-[TOC]
+1. install python3
+2. `pip3 install -r requirements.txt`
+3. prepare your data. change the parameters in the `main` function of `main.py`
 
-## Basic Class
+## Data structure for input and output
+
+> Follow the comments in the `main` function of `main.py` to organize your data in files
 
 ### Functions
 
@@ -118,5 +122,3 @@ A dict describes how many requests of each function should be solved **consideri
   "abilityConstraints": ability constraints
 }
 ```
-
-## Output
